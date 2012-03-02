@@ -1,0 +1,17 @@
+<projects>
+    <project id="commons-beanutils"
+             svnTagsDirUrl="http://svn.apache.org/repos/asf/commons/proper/beanutils/tags"
+             tagName="BEANUTILS"/>
+    <project id="commons-cli"
+             svnTagsDirUrl="http://svn.apache.org/repos/asf/commons/proper/cli/tags"
+             tagName="cli"/>
+    <project id="commons-codec"
+             svnTagsDirUrl="http://svn.apache.org/repos/asf/commons/proper/codec/tags"
+             tagName="commons-codec"/>
+    <project id="commons-collections"
+             svnTagsDirUrl="http://svn.apache.org/repos/asf/commons/proper/collections/tags"
+             tagName="COLLECTIONS"/>
+    <project id="commons-daemon"
+             svnTagsDirUrl="http://svn.apache.org/repos/asf/commons/proper/daemon/tags"
+             tagName="COMMONS_DAEMON"/>
+</projects>
