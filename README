@@ -1,3 +1,29 @@
 
 $ mvn package
-$ java -jar target/version-lounge-x.y.z-SNAPSHOT-jar-with-dependencies.jar -p examples/apache-commons.xml -v
+$ java -jar target/version-lounge-x.y.z-SNAPSHOT-jar-with-dependencies.jar \
+  --projects-file examples/apache-commons.xml --verbose
+
+* using projects file: examples/apache-commons.xml
+* fetching versions ...
+  * processing: commons-beanutils ... 1_8_3
+  * processing: commons-cli ... 1.2
+  * processing: commons-codec ... 1.5
+  * processing: commons-collections ... 3_2_1
+  * processing: commons-daemon ... 2_0_6
+
+ [*] commons-beanutils: 1_8_3 (28/03/2010)
+     http://svn.apache.org/repos/asf/commons/proper/beanutils/tags/BEANUTILS_1_8_3
+
+ [*] commons-cli: 1.2 (19/06/2010)
+     http://svn.apache.org/repos/asf/commons/proper/cli/tags/cli-1.2
+
+ [*] commons-codec: 1.5 (30/03/2011)
+     http://svn.apache.org/repos/asf/commons/proper/codec/tags/commons-codec-1.5
+
+ [*] commons-collections: 3_2_1 (07/12/2011)
+     http://svn.apache.org/repos/asf/commons/proper/collections/tags/COLLECTIONS_3_2_1
+
+ [*] commons-daemon: 2_0_6 (11/12/2009)
+     http://svn.apache.org/repos/asf/commons/proper/daemon/tags/COMMONS_DAEMON_2_0_6
+
+* done.
