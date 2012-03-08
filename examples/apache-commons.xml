@@ -1,4 +1,9 @@
 <projects>
+    <!-- non public svn repositories can be used with the svnUser and svnPass attributes, ex:
+    <project id="myPrivateProject"
+             svnTagsDirUrl="http://svn.acme.com/repos/project"
+             svnUser="scott" svnPass="tiger" tagName="boom"/>
+    -->
     <project id="commons-beanutils"
              svnTagsDirUrl="http://svn.apache.org/repos/asf/commons/proper/beanutils/tags"
              tagName="BEANUTILS"/>

@@ -1,6 +1,20 @@
 
+Version Lounge is a java command line tool designed to automatically grab the
+latest version, date and tag from a maven project hosted in a subversion repository.
+
+$ git clone git://github.com/mcaserta/version-lounge.git
+$ cd version-lounge
 $ mvn package
-$ java -jar target/version-lounge-x.y.z-SNAPSHOT-jar-with-dependencies.jar \
+$ java -jar target/version-lounge-*-jar-with-dependencies.jar
+
+  ERROR: project file is a mandatory option
+
+  usage: version-lounge
+   -o,--output-file <arg>     output file
+   -p,--projects-file <arg>   projects file
+   -v,--verbose               verbose mode
+
+$ java -jar target/version-lounge-*-jar-with-dependencies.jar \
   --projects-file examples/apache-commons.xml --verbose
 
 * using projects file: examples/apache-commons.xml
